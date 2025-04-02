@@ -66,6 +66,11 @@ textarea {
 #buttonnHeaderNavbar{
    border-color: #CC1C57 !important;
 }
+
+label::after {
+    content: " *";
+    color: #CC1C57;
+}
 /*#endregion BODY*/
 
 /*#region ACCUEIL*/
