@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HUMANITY - CONTACT</title>
+    <link rel="stylesheet" href="./style.css">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet'>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+
+<body>
+
+    <header class="d-flex flex-row justify-content-center mt-3 mb-3">
+        <nav class="navbar navbar-expand-lg rounded-4 d-flex flex-row justify-content-around align-items-center p-3 text-center"
+            id="forHeader">
+            <div class="container-fluid d-flex">
+                <div>
+                    <a class="navbar-brand" href="#">
+                        <img src="./assets/logo.png" alt="Logo" class="img-fluid">
+                    </a>
+                </div>
+                <button class="navbar-toggler order-2" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false"
+                    aria-label="Toggle navigation" id="buttonnHeaderNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <!-- <div id="lineAccueil" class="me-5 d-md-none d-lg-inline ms-lg-5"></div> -->
+                <div class="collapse navbar-collapse order-2 order-md-2" id="navbarTogglerDemo01">
+                     <ul class="w-100 navbar-nav nav justify-content-evenly mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active textWhite" aria-current="page" href="./index.html">Accueil</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link textWhite" href="./team.html">Equipe</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link textWhite" href="./catalogue.html">Catalogue</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link textWhite" href="./contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <section class="espacement10">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12 col-sm-12 col-md-12 col-lg-12 mt-5 d-flex justify-content-center">
+                    <p class="fs-1 textWhite">FORMULAIRE DE CONTACT</p>
+                </div>
+                <div class="col-lg-4 col-xl-4 cl-xxl-4"></div>
+                <div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4 col-xxl-4 mt-1">
+                    <form action="https://httpbin.org/post" method="post">
+                        <div class="container-fluid">
+                            <div class="row">
+                                <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6 mt-2 mb-2">
+                                    <label for="inputPrenom" class="form-label textWhite">Prénom</label>
+                                    <input required type="text" class="form-control formInputColors" id="inputPrenom"
+                                        aria-describedby="prenomInput" name="prenomInput">
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6 mt-2 mb-2">
+                                    <label for="inputNom" class="form-label textWhite">Nom</label>
+                                    <input required type="text" class="form-control formInputColors" id="inputNom"
+                                        name="nomInput" aria-describedby="nomInput">
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6 mt-2 mb-2">
+                                    <label for="inputTel" class="form-label textWhite">Téléphone</label>
+                                    <input required type="tel" class="form-control formInputColors" id="inputTel"
+                                        name="telInput" aria-describedby="telInput">
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6 mt-2 mb-2">
+                                    <label for="inputMail" class="form-label textWhite">Mail</label>
+                                    <input required type="email" class="form-control formInputColors" id="inputMail"
+                                        name="mailInput" aria-describedby="mailInput">
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-12 col-lg-12 mt-2 mb-2">
+                                    <label for="messageTextArea" class="textWhite">Message</label>
+                                    <textarea required class="form-control formInputColors textWhite"
+                                        placeholder="Un message a nous faire passer ?" id="messageTextArea"
+                                        style="height: 100px" name="messageInput"></textarea>
+                                </div>
+                                <div
+                                    class="col-12 col-sm-12 col-md-12 col-lg-12 mt-2 mb-2 d-flex justify-content-center">
+                                    <button required type="submit"
+                                        class="btn btn-primary w-25 textWhite likeStyleOfButtons">Envoyez</button>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="col-lg-4 col-xl-4 cl-xxl-4"></div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="mt-5">
+        <div class="container-fluid">
+            <div class="row p-1 d-flex flex-row justify-content-around text-center align-items-center">
+                <div class="col-12 col-sm-12 col-md-12 col-lg-4 mt-2 mb-2">
+                    <p id="copyright">Copyright © 2025 HUMANITY</p>
+                </div>
+                <div class="col-12 col-sm-12 col-md-12 col-lg-4 mt-2 mb-2">
+                    <img src="./assets/logo.png" alt="lgoo" class="img-fluid" width="350">
+                </div>
+                <div
+                    class="col-12 col-sm-12 col-md-12 mt-3 mb-2 col-lg-4 d-flex flex-column flex-lg-row text-center align-items-center justify-content-lg-evenly linksFooterAccueil">
+                    <a href="./index.html" class="whiteColor linksFooterAccueil">Accueil</a>
+                    <a href="/team.html" class="whiteColor linksFooterAccueil">Equipe</a>
+                    <a href="/catalogue.html" class="whiteColor linksFooterAccueil">Catalogue</a>
+                    <a href="/contact.html" class="whiteColor linksFooterAccueil">Contact</a>
+                    <a href="Sarah/index.html" target="_blank" class="whiteColor linksFooterAccueil">Sarah</a>
+                    <a href="Thomas/index.html" target="_blank" class="whiteColor linksFooterAccueil">Thomas</a>
+                    <a href="./Raph/index.html" target="_blank" class="whiteColor linksFooterAccueil">Raphael</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

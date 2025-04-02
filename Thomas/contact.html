@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Contact</title>
+        <link rel="stylesheet" href="./assets/style.css">
+        <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet'>
+    </head>
+    <body>
+        <form class="form_contact bg_darkcyan" action="https://httpbin.org/get" method="get">
+            <div class="form_first_row">
+                <label for="name">Nom&nbsp;:</label>
+                <input type="text" id="name" name="user_name" required >
+
+                <label for="select">Valeur&nbsp;:</label>
+                <select id="select" name="valeur_select">
+                    <option value="valeur1">Valeur 1</option>
+                    <option value="valeur2" selected>Valeur 2</option>
+                    <option value="valeur3">Valeur 3</option>
+                </select>
+            </div>
+            
+            <div class="form_second_row">
+                <span>Contact :</span>
+                <input type="radio" id="contactChoice1" name="contact" value="email" >
+                <label for="contactChoice1">Email</label>
+            
+                <input type="radio" id="contactChoice2" name="contact" value="telephone" checked>
+                <label for="contactChoice2">Téléphone</label>
+            </div>
+            
+            <div class="form_third_row">
+                <label for="msg">Message&nbsp;:</label>
+                <textarea id="msg" name="user_message"></textarea>
+            </div>
+
+            <div class="form_fourth_row">
+                <button type="submit">Envoyer le message</button>
+            </div>
+        </form>
+        <!--
+        <form class="form_contact" action="https://httpbin.org/post" method="post">
+            <div class="form_first_row">
+                <label for="name">Nom&nbsp;:</label>
+                <input type="text" id="name" name="user_name" required />
+
+                <label for="select">Valeur&nbsp;:</label>
+                <select id="monselect" name="valeur_select">
+                    <option value="valeur1">Valeur 1</option>
+                    <option value="valeur2" selected>Valeur 2</option>
+                    <option value="valeur3">Valeur 3</option>
+                </select>
+            </div>
+            
+            <div class="form_second_row">
+                <span>Contact :</span>
+                <input type="radio" id="contactChoice1" name="contact" value="email" checked />
+                <label for="contactChoice1">Email</label>
+            
+                <input type="radio" id="contactChoice2" name="contact" value="telephone" />
+                <label for="contactChoice2">Téléphone</label>
+            </div>
+            
+            <div class="form_third_row">
+                <label for="msg">Message&nbsp;:</label>
+                <textarea id="msg" name="user_message"></textarea>
+            </div>
+
+            <div class="form_fourth_row">
+                <button type="submit">Envoyer le message</button>
+            </div>
+        </form>  
+    -->
+    <footer class="bg_grey">
+        <span><a href="./index.html">Retour CV</a></span>
+    </footer>
+    </body>
+</html>

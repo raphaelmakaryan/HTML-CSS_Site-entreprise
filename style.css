@@ -1,0 +1,178 @@
+/*#region BODY*/
+body {
+    background-color: #4F081E !important;
+    font-family: "Open Sans" !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    color: #FDF2F7 !important;
+}
+
+.textBlack {
+    color: #000 !important;
+}
+
+.textWhite {
+    color: #FDF2F7 !important;
+}
+
+header>nav {
+    background: rgba(255, 255, 255, 0.12);
+}
+
+#lineAccueil {
+    background: rgba(255, 255, 255, 0.25);
+    width: 1px;
+    height: 30px;
+}
+
+footer {
+    color: #FDF2F7;
+    border: 10px solid #CC1C57;
+    background: #82193B;
+}
+
+.likeStyleOfButtons {
+    background: rgba(255, 255, 255, 0.12) !important;
+    border: unset !important;
+}
+
+.btn:hover {
+    background-color: #CC1C57 !important;
+}
+
+#copyright {
+    opacity: 70%;
+    font-size: 0.8rem;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.linksFooterAccueil {
+    font-size: 0.9rem;
+    color: gray;
+    text-decoration: none
+}
+
+.espacement10 {
+    margin-bottom: 10rem !important;
+}
+
+input,
+select,
+textarea {
+    color: #FBCFE4 !important;
+}
+
+#buttonnHeaderNavbar{
+   border-color: #CC1C57 !important;
+}
+/*#endregion BODY*/
+
+/*#region ACCUEIL*/
+#propos {
+    margin-top: 5rem;
+}
+
+/*#endregion ACCUEIL*/
+
+/*#region TEAM*/
+.teamList {
+    background-color: #4F081E;
+    background: rgba(255, 255, 255, 0.12);
+}
+
+/* .buttonsProfil {
+    border-color: #F373Ac !important;
+    background: rgba(255, 255, 255, 0.12) !important;
+    padding: 1rem;
+    color: #FDF2F7;
+} */
+/*#endregion TEAM*/
+
+/*#region CONTACT*/
+.formInputColors {
+    border: 3px solid #CC1C57 !important;
+    background: #82193B !important;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) !important;
+}
+
+.formInputColors::placeholder {
+    color: #FBCFE4 !important;
+}
+
+/*#endregion CONTACT*/
+
+/*#region CATALOGUE*/
+/* .buttoncolor{
+    background-color: #4F081E;
+    border-color: #4F081E;
+    color: #FDF2F7;
+} */
+/*#endregion CATALOGUE*/
+
+/*#region MEDIAQUERIS*/
+@media only screen and (min-width: 1024px) {
+    #forHeader {
+        width: 40%;
+    }
+}
+/*#endregion MEDIAQUERIS*/
+
+/*#region RAPH*/
+.photo {
+    width: 200px;
+    height: 200px !important;
+}
+
+#headerRaph {
+    background-color: #82193B;
+}
+
+.tdRaph,
+.thRaph {
+    border: 1px solid #FDF2F7;
+    text-align: left;
+    padding: 8px;
+}
+
+.trRaph:nth-child(even) {
+    background-color: #FDF2F7;
+}
+
+/*#endregion RAPH*/
+
+/*#region EN ATTENTE*/
+/*  
+h1 {
+    text-align: center;
+    margin: 40px;
+}
+
+body {
+    background-color: #4F081E;
+    font-family: "Open Sans";
+    margin: 0;
+    padding: 0;
+    color: #FDF2F7;
+}
+
+.bgcolor {
+    background-color: #82193B;
+    border-radius: 20px;
+}
+
+.buttoncolor {
+    background-color: #4F081E;
+    border-color: #4F081E;
+    color: #FDF2F7;
+}
+
+button:hover {
+    background-color: #CC1C57 !important;
+}
+
+col {
+    background-color: #CC1C57 !important;
+}
+        */
+/*#endregion EN ATTENTE*/

@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="/style/myRaphStrap.css">
+    <link rel="stylesheet" href="/style/anim.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon CV - Contact</title>
+<!--  
+    <style>
+    @import url("https://fonts.googleapis.com/css2?family=Boldonse&family=Winky+Sans:ital,wght@0,300..900;1,300..900&display=swap");
+    @import url('https://fonts.googleapis.com/css2?family=Tektur:wght@400..900&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Rochester&display=swap');
+    </style>
+    -->
+</head>
+
+<body>
+
+    <header class="alignItemsCenter">
+        <a href="index.html">Accueil</a>
+        <a href="hobby.html">Hobby</a>
+        <a href="contact.html">Contact</a>
+    </header>
+
+    <section>
+        <div>
+            <div class="dFlexColumnCenter alignItemsCenter">
+                <h1 class="WinkySan Tahoma mt-5 text-flicker-in-glow ">ENVOIE MOI UN MAIL</h1>
+                <a href="mailto:tuveutmenvoyezunmailtoi@gmail.com" class="aMail Rocheste Verdana fs-2 text-shadow-pop-top">
+                    Ici
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section class="dFlexColumnCenter alignItemsCenter mt-5 mb-2">
+        <h2 class="Boldons Century text-pop-up-top">Formulaire GET</h2>
+        <form class="dFlexColumnCenter thisForm heartbea" action="https://httpbin.org/get" method="get">
+            <label for="inputTextGET" class="mt-1">Input texte 1 :</label>
+            <input required type="text" id="inputTextGET" name="inputTextGET">
+
+            <div class="mt-2">
+                <label for="check1GET">CHOIX 1</label>
+                <input type="radio" id="check1GET" name="choixRadio" value="check1GET" required>
+                <label for="check2GET">CHOIX 2</label>
+                  <input type="radio" id="check2GET" name="choixRadio" value="check2GET" required>
+            </div>
+
+            <label for="selectPetsGET" class="mt-2">Select :</label>
+            <select name="selectPetsGET" id="selectPetsGET" class="mb-1" multiple required>
+                <option value="">--Please choose an option--</option>
+                <option value="dog">Dog</option>
+                <option value="cat">Cat</option>
+                <option value="hamster">Hamster</option>
+                <option value="parrot">Parrot</option>
+                <option value="spider">Spider</option>
+                <option value="goldfish">Goldfish</option>
+            </select>
+
+            <label for="textAreaGET" class="mt-1">Text area :</label>
+            <textarea required id="textAreaGET" name="textAreaGET" class="mb-2"></textarea>
+
+            <input type="reset" value="Supprimer le formulaire" class="mt-2">
+            <input type="submit" value="Envoyez le formulaire">
+        </form>
+    </section>
+
+    <section class="dFlexColumnCenter alignItemsCenter mt-5">
+        <h2 class="Boldons Century text-pop-up-top mt-5">Formulaire POST</h2>
+        <form class="dFlexColumnCenter thisForm swing-in-top-fwd" action="https://httpbin.org/post" method="post">
+            <label for="inputText" class="mt-1">Input texte 1 :</label>
+            <input required type="text" id="inputText" name="inputText">
+    
+            <div class="mt-2">
+                <label for="check1">CHOIX 1</label>
+                <input type="radio" id="check1" name="choixRadio" value="check1" required>
+                <label for="check2">CHOIX 2</label>
+                  <input type="radio" id="check2" name="choixRadio" value="check2" required>
+            </div>
+    
+            <label for="selectPets" class="mt-2">Select :</label>
+            <select name="selectPets" id="selectPets" class="mb-1" multiple required>
+                <option value="">--Please choose an option--</option>
+                <option value="dog">Dog</option>
+                <option value="cat">Cat</option>
+                <option value="hamster">Hamster</option>
+                <option value="parrot">Parrot</option>
+                <option value="spider">Spider</option>
+                <option value="goldfish">Goldfish</option>
+            </select>
+    
+            <label for="textArea" class="mt-1">Text area :</label>
+            <textarea required id="textArea" name="textArea" class="mb-2"></textarea>
+    
+            <input type="reset" value="Supprimer le formulaire" class="mt-2">
+            <input type="submit" value="Envoyez le formulaire">
+        </form>
+    </section>
+
+    <footer class="alignItemsCenter">
+        <div class="shadow-pop-tr mail">
+            <a href="mailto:tuveutmenvoyezunmailtoi@gmail.com">
+                <img src="./imgs/mail.png" alt="" class="iconFooter ">
+            </a>
+        </div>
+        <div class="shadow-inset-center textFooter">
+            <p>© 2025 - Created by RM</p>
+        </div>
+        <div class="slide-in-bck-center phone">
+            <a href="tel:+66118218"><img src="./imgs/phone.png" alt="" class="iconFooter"></a>
+        </div>
+    </footer>
+
+</body>
+
+</html>

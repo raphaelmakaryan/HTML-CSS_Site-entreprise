@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8">
+    <title>Contact</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet'>
+</head>
+
+<header class="bordered">
+    <section class="profil">
+        <img src="../assets/logo.png" alt="photo-main-dev" id="img-g-header">
+        <div>
+            <h1 class="bg-dark ">POPELIER Sarah</h1>
+            <h2 class="bg-dark">Parcours dévelopeur</h2>
+        </div>
+        <img src="assets/img-droite-header.jpg" alt="photo-Identité" id="photo">
+    </section>
+</header>
+    
+    <div class="flex-row-between">
+        
+        <div class="contact bordered">
+            <a href="tel:+33651970551">
+                <img class="icon" src="assets/appel-telephonique.png" alt="pictogramme-Téléphone">
+                <p>0651970551</p>
+            </a>
+            
+            <a href="mailto:sarah.popelier@hotmail.fr">
+                <img class="icon" src="assets/email.png" alt="pictogramme-Email">
+                <p>sarah.popelier@hotmail.fr</p>
+            </a>
+            
+            <a href="https://www.google.com/maps/dir//164+Av.+d'Aix-les-Bains,+74600+Annecy/@45.8838917,6.0934076,17z/data=!4m8!4m7!1m0!1m5!1m1!1s0x478b9ab9dba5e9e1:0xf1bce95fc27863f7!2m2!1d6.0982785!2d45.8838881?hl=fr&entry=ttu&g_ep=EgoyMDI1MDMxOS4yIKXMDSoASAFQAw%3D%3D">
+                <img class="icon" src="assets/lieu.png" alt="pictogramme-Adresse">
+                <p>164 avenue d'Aix les Bains, 74600 Seynod</p>
+            </a>
+            
+            <div>
+                <img class="icon" src="assets/calendrier.png" alt="pictogramme-Calendrier">
+                <p>20/01/1994</p>
+            </div>
+            
+            <div>
+                <img class="icon" src="assets/citoyennete.png" alt="pictogramme-Citoyennete">
+                <p>Française</p>
+            </div>
+            
+            <a>
+                <img class="icon" src="assets/assurance-automobile.png" alt="pictogramme-Véhicule">
+                <p>Permis B-véhiculée</p>
+            </a>
+            
+            <a>
+                <img class="icon" src="assets/couple.png" alt="pictogramme-Relation">
+                <p>Célibataire</p>
+            </a>
+            
+            <a href="popsupmarketing.com">
+                <img  class="icon" src="assets/domaine.png" alt="pictogramme-Web">
+                <p>(https://popsupmarketing.com)</p>
+            </a>
+            
+        </div>
+        
+        <form class="formulaire bordered" action="https://httpbin.org/post" method="post">
+            
+            <label for="statut">Quel est votre statut ?:</label>
+            <select>
+                <option value="">--S'il vous plait choisissez une option--</option>
+                <option value="pro">Professionnel</option>
+                <option value="particulier">Particulier</option>
+            </select>
+            <br><br>
+            
+            
+            <label for="username">Nom d'utilisateur :</label>
+            <input type="text" id="username" name="username" required>
+            <br><br>
+            
+            <label for="phone">Numéro de téléphone :</label>
+            <input type="tel" id="phone" name="phone" pattern="^\+33\d{9}$" required value="+33">
+            
+            <!-- Exemple de label et input pour email -->
+            <label for="email">Adresse e-mail :</label>
+            <input type="email" id="email" name="email" required>
+            <br><br>
+            
+            <!-- Exemple de label et textarea -->
+            <label for="message">Message :</label>
+            <textarea id="message" name="message" rows="4" cols="50"></textarea>
+            <br><br>
+            
+            <div class="radio">
+                
+                <p>Vous préferez être contacté par ?</p>
+                <input type="radio" id="choicemail" name="contact_method" value="email" checked>
+                <label for="choicemail">Par email</label>
+                
+                <input type="radio" id="choicephone" name="contact_method" value="phone">
+                <label for="choicephone">Par téléphone</label>
+            </div>
+            
+            <div class="button">
+                <input type="submit" value="Envoyer">
+            </div>
+        </form>
+        
+    </div>
+    
+    <nav class="bg-dark bordered">
+        <a href="index.html">CV</a>
+        <a href="hobby.html">Hobby</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+    
+    
+    
+    
+    <footer>
+        <p>© 2025 Mon CV - Tous droits réservés</p>   
+    </footer>
+</body>
+
+
+
+</html>
