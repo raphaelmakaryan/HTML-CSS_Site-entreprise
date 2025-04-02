@@ -144,52 +144,44 @@ label::after {
 #headerRaph {
     background-color: #82193B;
 }
-
-.tdRaph,
-.thRaph {
-    border: 1px solid #FDF2F7;
-    text-align: left;
-    padding: 8px;
-}
-
-.trRaph:nth-child(even) {
-    background-color: #FDF2F7;
-}
-
 /*#endregion RAPH*/
 
-/*#region EN ATTENTE*/
-/*  
-h1 {
+/*#region SARAH*/
+
+.bodySarah {
     text-align: center;
-    margin: 40px;
+    background-color:#f8d7da !important;
 }
 
-body {
-    background-color: #4F081E;
-    font-family: "Open Sans";
-    margin: 0;
-    padding: 0;
-    color: #FDF2F7;
+.fontColorSarah {
+    color: #4F081E;
 }
 
-.bgcolor {
-    background-color: #82193B;
-    border-radius: 20px;
+.photoProfilSarah {
+    width: 200px;
 }
 
-.buttoncolor {
-    background-color: #4F081E;
-    border-color: #4F081E;
-    color: #FDF2F7;
+.logo {
+    margin-left: 50px;
+    width: 199px;
+    height: 42px;
 }
 
-button:hover {
-    background-color: #CC1C57 !important;
+.bgLinearGradient{
+    border-radius: 10px;
+    background: linear-gradient(#4F081E, #CC1C57);
 }
 
-col {
-    background-color: #CC1C57 !important;
+.iconSarah {
+   width: 40px;
 }
-        */
-/*#endregion EN ATTENTE*/
+
+.listSarah {
+    list-style-type: none;
+}
+
+.colorLinkSarah >a {
+color: #FBCFE4;
+text-decoration: #FBCFE4;
+}
+/*#endregion SARAH*/

@@ -1,42 +1,85 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mes centres d'intérêt</title>
-    <link rel="stylesheet" href="style.css">
+    <meta charset="utf-8">
+    <title>POPELIER Sarah CV</title>
     <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet'>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="../style.css">
 </head>
-<body class="bg-light" id="hobby">
-     
-    <header class="bordered">
-        <section class="profil">
-            <img src="../assets/logo.png" alt="photo-main-dev" id="img-g-header">
-            <div>
-                <h1 class="bg-dark ">POPELIER Sarah</h1>
-                <h2 class="bg-dark">Parcours dévelopeur</h2>
+
+<body class="bodySarah">
+
+    <header>
+        <div class="container-fluid">
+            <div class="row d-flex align-items-center bgLinearGradient">
+                <div class="col-12 col-xl-2">
+                    <img class="logo" src="../assets/logo.png" alt="logo">
+                </div>
+
+                <div class="col-xl-8 textWhite fst-italic fs-1  text-center">
+                    <p>POPELIER Sarah</p>
+                    <p>Parcours développeur</p>
+                </div>
+                <div class="col-12 col-xl-2">
+                    <img class="rounded-5 img-fluid photoProfilSarah" src="assets/img-droite-header.jpg"
+                        alt="photo-Identité">
+                </div>
             </div>
-            <img src="assets/img-droite-header.jpg" alt="photo-Identité" id="photo">
-        </section>
+        </div>
     </header>
 
-    <p> À propos de moi
-        Curieuse et passionnée, j’aime explorer les mécanismes qui façonnent aussi bien le monde du développement web que celui de l’esprit humain. Actuellement en formation de développeuse web, je m’intéresse autant à la logique du code qu’au fonctionnement du cerveau, aux émotions et aux interactions humaines. Toujours avide de nouvelles connaissances, je me plonge avec enthousiasme dans des sujets variés : neurosciences, psychologie, langage corporel, intelligence émotionnelle… Mon parcours atypique, marqué par de nombreuses expériences, m’a appris à m’adapter rapidement et à embrasser le changement comme une opportunité d’apprentissage.
-    </p>
-    
-    <div class="video-container">
-        <!-- Utilisation de l'iframe pour intégrer la vidéo YouTube -->
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/ev18jMhJm0E" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    </div>
-    <nav class="bg-dark bordered">
-        <a href="index.html">CV</a>
-        <a href="hobby.html">Hobby</a>
-        <a href="contact.html">Contact</a>
-    </nav>
-    <footer>
-        <p>© 2025 Mon CV - Tous droits réservés</p>   
-    </footer>
 
+    <div class="container-fluid">
+        <div class="row">
+        
+            <div class="col-12 fontColorSarah text-center">
+                <p> À propos de moi
+                    Curieuse et passionnée, j’aime explorer les mécanismes qui façonnent aussi bien le monde du
+                    développement
+                    web que celui de l’esprit humain. Actuellement en formation de développeuse web, je m’intéresse
+                    autant à
+                    la
+                    logique du code qu’au fonctionnement du cerveau, aux émotions et aux interactions humaines. Toujours
+                    avide
+                    de nouvelles connaissances, je me plonge avec enthousiasme dans des sujets variés : neurosciences,
+                    psychologie, langage corporel, intelligence émotionnelle… Mon parcours atypique, marqué par de
+                    nombreuses
+                    expériences, m’a appris à m’adapter rapidement et à embrasser le changement comme une opportunité
+                    d’apprentissage.
+                </p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class=" d-flex justify-content-center align-items-center ">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/ev18jMhJm0E"
+                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+            </div>
+        </div>
+    </div>
+
+    <footer class="mt-5">
+        <div class="container-fluid">
+            <div class="row p-1 d-flex flex-row justify-content-around text-center align-items-center">
+                <div class="col-12 col-sm-12 col-md-12 col-lg-4 mt-2 mb-2">
+                    <p id="copyright">Copyright © 2025 HUMANITY</p>
+                </div>
+                <div class="col-12 col-sm-12 col-md-12 col-lg-4 mt-2 mb-2">
+                    <img src="../assets/logo.png" alt="logo" class="img-fluid" width="200">
+                </div>
+                <div
+                    class="col-12 col-sm-12 col-md-12 mt-3 mb-2 col-lg-4 d-flex flex-column flex-lg-row text-center align-items-center justify-content-lg-evenly linksFooterAccueil">
+                    <a href="./index.html" target="_blank" class="whiteColor linksFooterAccueil">Sarah</a>
+                    <a href="./hobby.html" target="_blank" class="whiteColor linksFooterAccueil">Hoobies</a>
+                    <a href="./contact.html" target="_blank" class="whiteColor linksFooterAccueil">Contact</a>
+                </div>
+            </div>
+        </div>
+    </footer>
 </body>
 
 

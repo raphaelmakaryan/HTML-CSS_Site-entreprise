@@ -4,291 +4,367 @@
 <head>
     <meta charset="utf-8">
     <title>POPELIER Sarah CV</title>
-    <link rel="stylesheet" href="style.css">
     <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet'>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="../style.css">
 </head>
 
-<body class="bg-light">
-    <header class="bordered">
-        <section class="profil">
-            <img src="../assets/logo.png" alt="photo-main-dev" id="img-g-header">
-            <div>
-                <h1 class="bg-dark ">POPELIER Sarah</h1>
-                <h2 class="bg-dark">Parcours dévelopeur</h2>
+<body class="bodySarah">
+
+    <header>
+        <div class="container-fluid">
+            <div class="row d-flex align-items-center bgLinearGradient">
+                <div class="col-12 col-xl-2">
+                    <img class="logo" src="../assets/logo.png" alt="logo">
+                </div>
+
+                <div class="col-xl-8 textWhite fst-italic fs-1  text-center">
+                    <p>POPELIER Sarah</p>
+                    <p>Parcours développeur</p>
+                </div>
+                <div class="col-12 col-xl-2">
+                    <img class="rounded-5 img-fluid photoProfilSarah" src="assets/img-droite-header.jpg"
+                        alt="photo-Identité">
+                </div>
             </div>
-            <img src="assets/img-droite-header.jpg" alt="photo-Identité" id="photo">
-        </section>
+        </div>
     </header>
 
-    <div class="content">
-        <aside>
-            <section>
-                <h3 class="bg-dark bordered title">Profil</h3>
-                <p id="fontSizeTexte">Passionnée par le développement
-                    et les nouvelles technologies, je
-                    suis en début de parcours dans ce
-                    domaine avec une motivation sans
-                    faille pour apprendre et progresser.
-                    Bien que novice, j'ai déjà commencé à
-                    explorer les bases du HTML, CSS à
-                    travers un projet personnel. <span class="fontweight"> Curieuse
-                        et déterminée</span>, je suis prête à relever
-                    les défis pour acquérir des
-                    compétences solides. Cette formation
-                    représente pour moi une opportunité
-                    idéale pour structurer mes
-                    connaissances et devenir une
-                    développeuse capable de créer
-                    des solutions efficaces et innovantes.
-                </p>
-            </section>
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-xl-4 col-sm-12">
+                <section>
+                    <h3 class="bgLinearGradient textWhite fst-italic p-1 m-3">Profil</h3>
+                    <p class="fontColorSarah">Passionnée par le développement
+                        et les nouvelles technologies, je
+                        suis en début de parcours dans ce
+                        domaine avec une motivation sans
+                        faille pour apprendre et progresser.
+                        Bien que novice, j'ai déjà commencé à
+                        explorer les bases du HTML, CSS à
+                        travers un projet personnel. <span> Curieuse
+                            et déterminée</span>, je suis prête à relever
+                        les défis pour acquérir des
+                        compétences solides. Cette formation
+                        représente pour moi une opportunité
+                        idéale pour structurer mes
+                        connaissances et devenir une
+                        développeuse capable de créer
+                        des solutions efficaces et innovantes.
+                    </p>
+                </section>
 
 
-            <section>
-                <h3 class="bg-dark bordered title">Compétences</h3>
-                <ul id="fontSizeTexte" class="fontstyleitalic">
-                    <li>Sens de l'organisation</li>
-                    <li>Travail en équipe</li>
-                    <li>Adaptabilité au changement</li>
-                    <li>Écoute active</li>
-                    <li>Gestion du temps efficace</li>
-                    <li>Persévérance dans les projets</li>
-                    <li>Esprit critique</li>
-                    <li>Résolution créative de problèmes</li>
-                </ul>
-            </section>
+                <section>
+                    <h3 class="bgLinearGradient textWhite fst-italic p-1 m-3">Compétences</h3>
+                    <ul class="fontColorSarah listSarah">
+                        <li>Sens de l'organisation</li>
+                        <li>Travail en équipe</li>
+                        <li>Adaptabilité au changement</li>
+                        <li>Écoute active</li>
+                        <li>Gestion du temps efficace</li>
+                        <li>Persévérance dans les projets</li>
+                        <li>Esprit critique</li>
+                        <li>Résolution créative de problèmes</li>
+                    </ul>
+                </section>
 
-            <section>
-                <h3 class="bg-dark bordered title">Centres d'intérêt</h3>
+                <section>
+                    <h3 class="bgLinearGradient textWhite fst-italic p-1 m-3">Centres d'intérêt</h3>
 
-                <ul id="fontSizeTexte" class="fontstyleitalic">
-                    <li>Informatique</li>
-                    <li>Lecture</li>
-                    <li>Cuisine</li>
-                    <li>Musique</li>
-                    <li>Photograhie</li>
-                </ul>
-            </section>
-            <section>
-                <h3 class="bg-dark bordered title">Langues</h3>
-                <ol id="fontSizeTexte" class="fontstyleitalic">
-                    <li>Français = Langue maternelle</li>
-                    <li>Anglais = Débutant</li>
-                    <li>Allemand = Débutant</li>
-                </ol>
-            </section>
-        </aside>
-        <div>
-            <section class="contact bordered">
-
-                <div>
-                    <h3 class="bg-dark">Pour me joindre</h3>
-                </div>
-                <div>
-                    <a href="tel:+33651970551">
-                        <img class="icon" src="assets/appel-telephonique.png" alt="pictogramme-Téléphone">
-                    </a>
-
-                    <a href="mailto:sarah.popelier@hotmail.fr">
-                        <img class="icon" src="assets/email.png" alt="pictogramme-Email">
-                    </a>
-
-                    <a
-                        href="https://www.google.com/maps/dir//164+Av.+d'Aix-les-Bains,+74600+Annecy/@45.8838917,6.0934076,17z/data=!4m8!4m7!1m0!1m5!1m1!1s0x478b9ab9dba5e9e1:0xf1bce95fc27863f7!2m2!1d6.0982785!2d45.8838881?hl=fr&entry=ttu&g_ep=EgoyMDI1MDMxOS4yIKXMDSoASAFQAw%3D%3D">
-                        <img class="icon" src="assets/lieu.png" alt="pictogramme-Adresse">
-                    </a>
-
-                    <a href="popsupmarketing.com">
-                        <img class="icon" src="assets/domaine.png" alt="pictogramme-Web">
-                    </a>
-
-                </div>
-                <div>
-                    <a href="contact.html" target="_blank">
-                        <span id="contactText">Contact</span>
-                    </a>
-                </div>
-
-            </section>
+                    <ul class="fontColorSarah listSarah">
+                        <li>Informatique</li>
+                        <li>Lecture</li>
+                        <li>Cuisine</li>
+                        <li>Musique</li>
+                        <li>Photograhie</li>
+                    </ul>
+                </section>
+                <section>
+                    <h3 class="bgLinearGradient textWhite fst-italic p-1 m-3">Langues</h3>
+                    <ol class="fontColorSarah text-center listSarah">
+                        <li>Français = Langue maternelle</li>
+                        <li>Anglais = Débutant</li>
+                        <li>Allemand = Débutant</li>
+                    </ol>
+                </section>
+            </div>
 
 
-            <section>
-                <h3 class="bg-dark bordered title">Expériences</h3>
-                <table class="tableau">
-                    <caption>
-                        Mes expériences professionelles
-                    </caption>
-                    <thead>
-                        <tr>
-                            <th>Période</th>
-                            <th>Emploi</th>
-                            <th>Entreprise, Lieu, Contrat</th>
-                        </tr>
-                    </thead>
 
-                    <tbody>
-                        <tr>
-                            <td>07/2023 - 06/2024</td>
-                            <td>Chauffeur livreur VL pour FEDEX</td>
-                            <td>Bhbj Transport, Allonzier-la-Caille, CDI</td>
-                        </tr>
+            <div class="col-xl-8 col-sm-12">
+                <section>
+                    <div class="bgLinearGradient textWhite fst-italic p-1 m-3">
+                        <div class="mb-3 mt-3">
+                            <h3>Pour me joindre</h3>
+                        </div>
+                        <div class="d-flex flex-row justify-content-evenly mt-3 mb-3">
+                            <div class="mt-3 mb-3 btn">
+                                <a href="tel:+33651970551">
+                                    <img class="iconSarah" src="assets/appel-telephonique.png"
+                                        alt="pictogramme-Téléphone">
+                                </a>
+                            </div>
+                            <div class="mt-3 btn">
+                                <a href="mailto:sarah.popelier@hotmail.fr">
+                                    <img class="iconSarah" src="assets/email.png" alt="pictogramme-Email">
+                                </a>
+                            </div>
+                            <div class="mt-3 btn">
+                                <a
+                                    href="https://www.google.com/maps/dir//164+Av.+d'Aix-les-Bains,+74600+Annecy/@45.8838917,6.0934076,17z/data=!4m8!4m7!1m0!1m5!1m1!1s0x478b9ab9dba5e9e1:0xf1bce95fc27863f7!2m2!1d6.0982785!2d45.8838881?hl=fr&entry=ttu&g_ep=EgoyMDI1MDMxOS4yIKXMDSoASAFQAw%3D%3D">
+                                    <img class="iconSarah" src="assets/lieu.png" alt="pictogramme-Adresse">
+                                </a>
+                            </div>
+                            <div class="mt-3 btn">
+                                <a href="popsupmarketing.com">
+                                    <img class="iconSarah" src="assets/domaine.png" alt="pictogramme-Web">
+                                </a>
+                            </div>
+                        </div>
+                        <div>
+                            <a href="contact.html" target="_blank">
+                                <span class="btn textWhite">Contact</span>
+                            </a>
+                        </div>
+                    </div>
+                </section>
 
-                        <tr>
-                            <td>05/2023 - 06/2023</td>
-                            <td>Chauffeur livreur VL pour DHL</td>
-                            <td>FP Transport, Annecy, CDI</td>
-                        </tr>
 
-                        <tr>
-                            <td>12/2021 - 02/2023</td>
-                            <td>Chauffeur livreur VL pour FEDEX</td>
-                            <td>B&B Transloc, Allonzier-la-Caille, CDI</td>
-                        </tr>
+                <section>
+                    <h3 class="bgLinearGradient textWhite fst-italic p-1 m-3">Expériences</h3>
+                    <table class="fontColorSarah position-relative top-0 start-50 translate-middle-x">
 
-                        <tr>
-                            <td>10/2019 - 09/2020</td>
-                            <td>Chauffeur livreur VL</td>
-                            <td>Ockexpress, Pringy, CDI</td>
-                        </tr>
+                        <thead>
+                            <tr>
+                                <th>Période</th>
+                                <th>Emploi</th>
+                                <th>Entreprise, Lieu, Contrat</th>
+                            </tr>
+                        </thead>
 
-                        <tr>
-                            <td>09/2018 - 11/2018</td>
-                            <td>Chauffeur livreur VL</td>
-                            <td>BHBJ Transport, Allonzier-la-Caille, CDI</td>
-                        </tr>
+                        <tbody>
+                            <tr>
+                                <td>07/2023 - 06/2024</td>
+                                <td>Chauffeur livreur VL pour FEDEX</td>
+                                <td>Bhbj Transport, Allonzier-la-Caille, CDI</td>
+                            </tr>
+                        </tbody>
 
-                        <tr>
-                            <td>07/2017 - 07/2018</td>
-                            <td>Chauffeur livreur VL</td>
-                            <td>STC, Annecy, CDI</td>
-                        </tr>
+                        <tbody>
+                            <tr>
+                                <td>05/2023 - 06/2023</td>
+                                <td>Chauffeur livreur VL pour DHL</td>
+                                <td>FP Transport, Annecy, CDI</td>
+                            </tr>
+                        </tbody>
 
-                        <tr>
-                            <td>04/2017 - 05/2017</td>
-                            <td>Chef de rang</td>
-                            <td>Chalet du Tornet, La Balme de Sillingy, CDD</td>
-                        </tr>
+                        <tbody>
+                            <tr>
+                                <td>12/2021 - 02/2023</td>
+                                <td>Chauffeur livreur VL pour FEDEX</td>
+                                <td>B&B Transloc, Allonzier-la-Caille, CDI</td>
+                            </tr>
+                        </tbody>
 
-                        <tr>
-                            <td>05/2015 - 03/2016</td>
-                            <td>Chauffeur livreur VL</td>
-                            <td>STC, Annecy-le-Vieux, CDI</td>
-                        </tr>
+                        <tbody>
+                            <tr>
+                                <td>10/2019 - 09/2020</td>
+                                <td>Chauffeur livreur VL</td>
+                                <td>Ockexpress, Pringy, CDI</td>
+                            </tr>
+                        </tbody>
 
-                        <tr>
-                            <td>01/2015 - 02/2015</td>
-                            <td>Chauffeur livreur VL</td>
-                            <td>FOODPACK by Adecco, Rumilly, Intérim</td>
-                        </tr>
+                        <tbody>
+                            <tr>
+                                <td>09/2018 - 11/2018</td>
+                                <td>Chauffeur livreur VL</td>
+                                <td>BHBJ Transport, Allonzier-la-Caille, CDI</td>
+                            </tr>
+                        </tbody>
 
-                        <tr>
-                            <td>01/2015 - 02/2015</td>
-                            <td>Convoyeur</td>
-                            <td>Job Concept, Alby-sur-Cheran, Intérim</td>
-                        </tr>
+                        <tbody>
+                            <tr>
+                                <td>07/2017 - 07/2018</td>
+                                <td>Chauffeur livreur VL</td>
+                                <td>STC, Annecy, CDI</td>
+                            </tr>
+                        </tbody>
 
-                        <tr>
-                            <td>07/2013 - 11/2014</td>
-                            <td>Serveuse Barmaid</td>
-                            <td>Le Petit Bistrot, Annecy, CDI</td>
-                        </tr>
+                        <tbody>
+                            <tr>
+                                <td>04/2017 - 05/2017</td>
+                                <td>Chef de rang</td>
+                                <td>Chalet du Tornet, La Balme de Sillingy, CDD</td>
+                            </tr>
+                        </tbody>
 
-                        <tr>
-                            <td>03/2013 - 04/2013</td>
-                            <td>Chef de rang</td>
-                            <td>Mamie Lise, Annecy, CDD</td>
-                        </tr>
+                        <tbody>
+                            <tr>
+                                <td>05/2015 - 03/2016</td>
+                                <td>Chauffeur livreur VL</td>
+                                <td>STC, Annecy-le-Vieux, CDI</td>
+                            </tr>
+                        </tbody>
 
-                        <tr>
-                            <td>12/2012 - 01/2013</td>
-                            <td>Agent de service</td>
-                            <td>Annecy Net, Annecy, CDD</td>
-                        </tr>
+                        <tbody>
+                            <tr>
+                                <td>01/2015 - 02/2015</td>
+                                <td>Chauffeur livreur VL</td>
+                                <td>FOODPACK by Adecco, Rumilly, Intérim</td>
+                            </tr>
+                        </tbody>
 
-                        <tr>
-                            <td>10/2012 - 11/2012</td>
-                            <td>Commercial</td>
-                            <td>Confor'm Habitat, Annecy-le-Vieux, CDD</td>
-                        </tr>
+                        <tbody>
+                            <tr>
+                                <td>01/2015 - 02/2015</td>
+                                <td>Convoyeur</td>
+                                <td>Job Concept, Alby-sur-Cheran, Intérim</td>
+                            </tr>
+                        </tbody>
 
-                        <tr>
-                            <td>06/2012 - 08/2012</td>
-                            <td>Serveuse Barmaid</td>
-                            <td>Le Grand Café, Annecy, CDI</td>
-                        </tr>
+                        <tbody>
+                            <tr>
+                                <td>07/2013 - 11/2014</td>
+                                <td>Serveuse Barmaid</td>
+                                <td>Le Petit Bistrot, Annecy, CDI</td>
+                            </tr>
+                        </tbody>
 
-                        <tr>
-                            <td>03/2012 - 04/2012</td>
-                            <td>Chef de rang</td>
-                            <td>Le Sapaudia, Annecy, CDD</td>
-                        </tr>
+                        <tbody>
+                            <tr>
+                                <td>03/2013 - 04/2013</td>
+                                <td>Chef de rang</td>
+                                <td>Mamie Lise, Annecy, CDD</td>
+                            </tr>
+                        </tbody>
 
-                        <tr>
-                            <td>11/2011 - 01/2012</td>
-                            <td>Chef de rang</td>
-                            <td>La Pataterie, Epagny, CDI</td>
-                        </tr>
+                        <tbody>
+                            <tr>
+                                <td>12/2012 - 01/2013</td>
+                                <td>Agent de service</td>
+                                <td>Annecy Net, Annecy, CDD</td>
+                            </tr>
+                        </tbody>
 
-                        <tr>
-                            <td>09/2011 - 11/2011</td>
-                            <td>Equipière Polyvalente</td>
-                            <td>Macdonald's, Seynod, CDI</td>
-                        </tr>
+                        <tbody>
+                            <tr>
+                                <td>10/2012 - 11/2012</td>
+                                <td>Commercial</td>
+                                <td>Confor'm Habitat, Annecy-le-Vieux, CDD</td>
+                            </tr>
+                        </tbody>
 
-                        <tr>
-                            <td>04/2011 - 08/2011</td>
-                            <td>Serveuse Barmaid</td>
-                            <td>L'Intrépide, Seynod, CDD</td>
-                        </tr>
-                        <tr>
-                            <td>02/2011 - 03/2011</td>
-                            <td>Vendeuse Préparatrice</td>
-                            <td>Garmin, Epagny, CDD</td>
-                        </tr>
-                    </tbody>
-                </table>
-            </section>
+                        <tbody>
+                            <tr>
+                                <td>06/2012 - 08/2012</td>
+                                <td>Serveuse Barmaid</td>
+                                <td>Le Grand Café, Annecy, CDI</td>
+                            </tr>
+                        </tbody>
 
-            <section>
-                <h3 class="bg-dark bordered title">Formations</h3>
-                <table class="tableau">
-                    <thead>
-                        <tr>
-                            <th>Période</th>
-                            <th>Établissement, lieu</th>
-                            <th>Diplôme</th>
-                        </tr>
-                    </thead>
 
-                    <tbody>
-                        <tr>
-                            <td>09/2020 - 10/2020</td>
-                            <td>Ongle Center, Annecy</td>
-                            <td>Prothésiste ongulaire</td>
+                        <tbody>
+                            <tr>
+                                <td>03/2012 - 04/2012</td>
+                                <td>Chef de rang</td>
+                                <td>Le Sapaudia, Annecy, CDD</td>
+                            </tr>
+                        </tbody>
 
-                        </tr>
-                        <tr>
-                            <td>09/2009 - 09/2010</td>
-                            <td>Lycée Professionnel Gordini, Seynod</td>
-                            <td>Baccalauréat profesionnel: mécanique automobiles</td>
-                        </tr>
-                    </tbody>
-                </table>
-            </section>
 
+                        <tbody>
+                            <tr>
+                                <td>11/2011 - 01/2012</td>
+                                <td>Chef de rang</td>
+                                <td>La Pataterie, Epagny, CDI</td>
+                            </tr>
+                        </tbody>
+
+                        <tbody>
+                            <tr>
+                                <td>09/2011 - 11/2011</td>
+                                <td>Equipière Polyvalente</td>
+                                <td>Macdonald's, Seynod, CDI</td>
+                            </tr>
+                        </tbody>
+
+                        <tbody>
+                            <tr>
+                                <td>04/2011 - 08/2011</td>
+                                <td>Serveuse Barmaid</td>
+                                <td>L'Intrépide, Seynod, CDD</td>
+                            </tr>
+                        </tbody>
+
+                        <tbody>
+                            <tr>
+                                <td>02/2011 - 03/2011</td>
+                                <td>Vendeuse Préparatrice</td>
+                                <td>Garmin, Epagny, CDD</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </section>
+
+                <section>
+                    <h3 class="bgLinearGradient textWhite fst-italic p-1 m-3">Formations</h3>
+                    <table class="fontColorSarah position-relative top-0 start-50 translate-middle-x">
+                        <thead>
+                            <tr>
+                                <th>Période</th>
+                                <th>Établissement, lieu</th>
+                                <th>Diplôme</th>
+                            </tr>
+                        </thead>
+
+                        <tbody>
+                            <tr>
+                                <td>09/2020 - 10/2020</td>
+                                <td>Ongle Center, Annecy</td>
+                                <td>Prothésiste ongulaire</td>
+
+                            </tr>
+                        </tbody>
+
+                        <tbody>
+                            <tr>
+                                <td>09/2009 - 09/2010</td>
+                                <td>Lycée Professionnel Gordini, Seynod</td>
+                                <td>Baccalauréat profesionnel: mécanique automobiles</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </section>
+            </div>
         </div>
     </div>
+    </div>
 
-    <footer class="bg-dark footer bordered">
-        <nav class="bg-dark">
-            <a href="index.html">CV</a>
-            <a href="hobby.html">Hobby</a>
-            <a href="contact.html">Contact</a>
-        </nav>
-        <p>© 2025 Mon CV - Tous droits réservés</p>
+    <footer class="mt-5">
+        <div class="container-fluid">
+            <div class="row p-1 d-flex flex-row justify-content-around text-center align-items-center">
+                <div class="col-12 col-sm-12 col-md-12 col-lg-4 mt-2 mb-2">
+                    <p id="copyright">Copyright © 2025 HUMANITY</p>
+                </div>
+                <div class="col-12 col-sm-12 col-md-12 col-lg-4 mt-2 mb-2">
+                    <img src="../assets/logo.png" alt="logo" class="img-fluid" width="200">
+                </div>
+                <div
+                    class="col-12 col-sm-12 col-md-12 mt-3 mb-2 col-lg-4 d-flex flex-column flex-lg-row text-center align-items-center justify-content-lg-evenly linksFooterAccueil">
+                    <a href="./index.html" target="_blank" class="whiteColor linksFooterAccueil">Sarah</a>
+                    <a href="./hobby.html" target="_blank" class="whiteColor linksFooterAccueil">Hoobies</a>
+                    <a href="./contact.html" target="_blank" class="whiteColor linksFooterAccueil">Contact</a>
+                </div>
+            </div>
+        </div>
     </footer>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
 </body>
-
-
 
 </html>
