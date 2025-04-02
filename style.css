@@ -123,6 +123,18 @@ label::after {
 }
 /*#endregion MEDIAQUERIS*/
 
+/*#region THOMAS*/
+.bg_red{
+    background-color: #CC1C57;
+  }
+  .bg_dark{
+      background-color: #4F081E;
+  }
+  .exp{
+      background-color: #82193B;
+  }
+/*#endregion THOMAS*/
+
 /*#region RAPH*/
 .photo {
     width: 200px;
