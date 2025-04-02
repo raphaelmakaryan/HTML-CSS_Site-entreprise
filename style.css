@@ -132,18 +132,6 @@ label::after {
 #headerRaph {
     background-color: #82193B;
 }
-
-.tdRaph,
-.thRaph {
-    border: 1px solid #FDF2F7;
-    text-align: left;
-    padding: 8px;
-}
-
-.trRaph:nth-child(even) {
-    background-color: #FDF2F7;
-}
-
 /*#endregion RAPH*/
 
 /*#region EN ATTENTE*/
