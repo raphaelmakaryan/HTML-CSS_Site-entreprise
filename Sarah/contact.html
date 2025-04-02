@@ -3,123 +3,148 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Contact</title>
-    <link rel="stylesheet" href="style.css">
+    <title>POPELIER Sarah CV</title>
     <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet'>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="../style.css">
 </head>
 
-<header class="bordered">
-    <section class="profil">
-        <img src="../assets/logo.png" alt="photo-main-dev" id="img-g-header">
-        <div>
-            <h1 class="bg-dark ">POPELIER Sarah</h1>
-            <h2 class="bg-dark">Parcours dévelopeur</h2>
+<body class="bodySarah">
+
+    <header>
+        <div class="container-fluid">
+            <div class="row d-flex align-items-center bgLinearGradient">
+                <div class="col-12 col-xl-2">
+                    <img class="logo" src="../assets/logo.png" alt="logo">
+                </div>
+
+                <div class="col-xl-8 textWhite fst-italic fs-1  text-center">
+                    <p>POPELIER Sarah</p>
+                    <p>Parcours développeur</p>
+                </div>
+                <div class="col-12 col-xl-2">
+                    <img class="rounded-5 img-fluid photoProfilSarah" src="assets/img-droite-header.jpg"
+                        alt="photo-Identité">
+                </div>
+            </div>
         </div>
-        <img src="assets/img-droite-header.jpg" alt="photo-Identité" id="photo">
-    </section>
-</header>
-    
-    <div class="flex-row-between">
-        
-        <div class="contact bordered">
-            <a href="tel:+33651970551">
-                <img class="icon" src="assets/appel-telephonique.png" alt="pictogramme-Téléphone">
-                <p>0651970551</p>
-            </a>
-            
-            <a href="mailto:sarah.popelier@hotmail.fr">
-                <img class="icon" src="assets/email.png" alt="pictogramme-Email">
-                <p>sarah.popelier@hotmail.fr</p>
-            </a>
-            
-            <a href="https://www.google.com/maps/dir//164+Av.+d'Aix-les-Bains,+74600+Annecy/@45.8838917,6.0934076,17z/data=!4m8!4m7!1m0!1m5!1m1!1s0x478b9ab9dba5e9e1:0xf1bce95fc27863f7!2m2!1d6.0982785!2d45.8838881?hl=fr&entry=ttu&g_ep=EgoyMDI1MDMxOS4yIKXMDSoASAFQAw%3D%3D">
-                <img class="icon" src="assets/lieu.png" alt="pictogramme-Adresse">
-                <p>164 avenue d'Aix les Bains, 74600 Seynod</p>
-            </a>
-            
-            <div>
-                <img class="icon" src="assets/calendrier.png" alt="pictogramme-Calendrier">
-                <p>20/01/1994</p>
+    </header>
+
+    <div class="container-fluid mt-4">
+        <div class="row d-flex justify-content-around">
+            <div class="col-xl-4 col-md-12 pt-5 mb-2 bgLinearGradient colorLinkSarah">
+
+                <a href="tel:+33651970551">
+                    <img class="iconSarah" src="assets/appel-telephonique.png" alt="pictogramme-Téléphone">
+                    <p>0651970551</p>
+                </a>
+
+                <a href="mailto:sarah.popelier@hotmail.fr">
+                    <img class="iconSarah" src="assets/email.png" alt="pictogramme-Email">
+                    <p>sarah.popelier@hotmail.fr</p>
+                </a>
+
+                <a href="https://www.google.com/maps/dir//164+Av.+d'Aix-les-Bains,+74600+Annecy/@45.8838917,6.0934076,17z/data=!4m8!4m7!1m0!1m5!1m1!1s0x478b9ab9dba5e9e1:0xf1bce95fc27863f7!2m2!1d6.0982785!2d45.8838881?hl=fr&entry=ttu&g_ep=EgoyMDI1MDMxOS4yIKXMDSoASAFQAw%3D%3D"
+                    target="_blank">
+                    <img class="iconSarah" src="assets/lieu.png" alt="pictogramme-Adresse">
+                    <p>164 avenue d'Aix les Bains, 74600 Seynod</p>
+                </a>
+
+                <div>
+                    <img class="iconSarah" src="assets/calendrier.png" alt="pictogramme-Calendrier">
+                    <p>20/01/1994</p>
+                </div>
+
+                <div>
+                    <img class="iconSarah" src="assets/citoyennete.png" alt="pictogramme-Citoyennete">
+                    <p>Française</p>
+                </div>
+
+                <a>
+                    <img class="iconSarah" src="assets/assurance-automobile.png" alt="pictogramme-Véhicule">
+                    <p>Permis B-véhiculée</p>
+                </a>
+
+                <a>
+                    <img class="iconSarah" src="assets/couple.png" alt="pictogramme-Relation">
+                    <p>Célibataire</p>
+                </a>
+
+                <a href="popsupmarketing.com">
+                    <img class="iconSarah" src="assets/domaine.png" alt="pictogramme-Web">
+                    <p>(https://popsupmarketing.com)</p>
+                </a>
             </div>
-            
-            <div>
-                <img class="icon" src="assets/citoyennete.png" alt="pictogramme-Citoyennete">
-                <p>Française</p>
+
+
+
+            <div class="col-xl-4 col-md-12 bgLinearGradient pt-5">
+                <form class="" action="https://httpbin.org/post" method="post">
+
+                    <label class="labelSarah" class="labelSarah" for="statut">Quel est votre statut ?:</label>
+                    <select class="selectSarah formInputColors rounded">
+                        <option value="">--S'il vous plait choisissez une option--</option>
+                        <option value="pro">Professionnel</option>
+                        <option value="particulier">Particulier</option>
+                    </select>
+                    <br><br>
+
+
+                    <label class="labelSarah" for="username">Nom d'utilisateur :</label>
+                    <input type="text" id="username" name="username" required class="formInputColors rounded">
+                    <br><br>
+
+                    <label class="labelSarah" for="phone">Numéro de téléphone :</label>
+                    <input type="tel" id="phone" name="phone" pattern="^\+33\d{9}$" required value="+33" class="formInputColors rounded">
+                    <br><br>
+
+                    <!-- Exemple de label et input pour email -->
+                    <label class="labelSarah" for="email">Adresse e-mail :</label>
+                    <input type="email" id="email" name="email" required class="formInputColors rounded">
+                    <br><br>
+
+                    <!-- Exemple de label et textarea -->
+                    <label class="labelSarah" for="message">Message :</label>
+                    <textarea id="message" name="message" rows="4" cols="50" class="formInputColors rounded"></textarea>
+                    <br><br>
+
+                    <div class="radio">
+
+                        <p>Vous préferez être contacté par ?</p>
+                        <input type="radio" class="formInputColors rounded" id="choicemail" name="contact_method" value="email" checked>
+                        <label class="labelSarah" for="choicemail">Par email</label>
+
+                        <input type="radio" class="formInputColors rounded" id="choicephone" name="contact_method" value="phone">
+                        <label class="labelSarah" for="choicephone">Par téléphone</label>
+                    </div>
+
+                    <div class="buttonSarah">
+                        <input type="submit" class="formInputColors rounded" value="Envoyer">
+                    </div>
+                </form>
             </div>
-            
-            <a>
-                <img class="icon" src="assets/assurance-automobile.png" alt="pictogramme-Véhicule">
-                <p>Permis B-véhiculée</p>
-            </a>
-            
-            <a>
-                <img class="icon" src="assets/couple.png" alt="pictogramme-Relation">
-                <p>Célibataire</p>
-            </a>
-            
-            <a href="popsupmarketing.com">
-                <img  class="icon" src="assets/domaine.png" alt="pictogramme-Web">
-                <p>(https://popsupmarketing.com)</p>
-            </a>
-            
         </div>
-        
-        <form class="formulaire bordered" action="https://httpbin.org/post" method="post">
-            
-            <label for="statut">Quel est votre statut ?:</label>
-            <select>
-                <option value="">--S'il vous plait choisissez une option--</option>
-                <option value="pro">Professionnel</option>
-                <option value="particulier">Particulier</option>
-            </select>
-            <br><br>
-            
-            
-            <label for="username">Nom d'utilisateur :</label>
-            <input type="text" id="username" name="username" required>
-            <br><br>
-            
-            <label for="phone">Numéro de téléphone :</label>
-            <input type="tel" id="phone" name="phone" pattern="^\+33\d{9}$" required value="+33">
-            
-            <!-- Exemple de label et input pour email -->
-            <label for="email">Adresse e-mail :</label>
-            <input type="email" id="email" name="email" required>
-            <br><br>
-            
-            <!-- Exemple de label et textarea -->
-            <label for="message">Message :</label>
-            <textarea id="message" name="message" rows="4" cols="50"></textarea>
-            <br><br>
-            
-            <div class="radio">
-                
-                <p>Vous préferez être contacté par ?</p>
-                <input type="radio" id="choicemail" name="contact_method" value="email" checked>
-                <label for="choicemail">Par email</label>
-                
-                <input type="radio" id="choicephone" name="contact_method" value="phone">
-                <label for="choicephone">Par téléphone</label>
-            </div>
-            
-            <div class="button">
-                <input type="submit" value="Envoyer">
-            </div>
-        </form>
-        
     </div>
-    
-    <nav class="bg-dark bordered">
-        <a href="index.html">CV</a>
-        <a href="hobby.html">Hobby</a>
-        <a href="contact.html">Contact</a>
-    </nav>
-    
-    
-    
-    
-    <footer>
-        <p>© 2025 Mon CV - Tous droits réservés</p>   
+
+
+    <footer class="mt-5">
+        <div class="container-fluid">
+            <div class="row p-1 d-flex flex-row justify-content-around text-center align-items-center">
+                <div class="col-12 col-sm-12 col-md-12 col-lg-4 mt-2 mb-2">
+                    <p id="copyright">Copyright © 2025 HUMANITY</p>
+                </div>
+                <div class="col-12 col-sm-12 col-md-12 col-lg-4 mt-2 mb-2">
+                    <img src="../assets/logo.png" alt="logo" class="img-fluid" width="200">
+                </div>
+                <div
+                    class="col-12 col-sm-12 col-md-12 mt-3 mb-2 col-lg-4 d-flex flex-column flex-lg-row text-center align-items-center justify-content-lg-evenly linksFooterAccueil">
+                    <a href="./index.html" target="_blank" class="whiteColor linksFooterAccueil">Sarah</a>
+                    <a href="./hobby.html" target="_blank" class="whiteColor linksFooterAccueil">Hoobies</a>
+                    <a href="./contact.html" target="_blank" class="whiteColor linksFooterAccueil">Contact</a>
+                </div>
+            </div>
+        </div>
     </footer>
 </body>
 
